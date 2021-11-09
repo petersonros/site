@@ -1,0 +1,29 @@
+body{
+    font-family: verdana;
+    color: #ffffff;
+    background-color: #0044ff;
+    margin: 0;
+}
+h1{
+    color: white;
+    text-align: center;
+}  
+p{
+    font-size: 20px;
+} 
+.header, .section, .footer{
+	width: 100%;
+	height: auto;
+	background-color: #FF0000;
+}
+logo{
+    width: 30%;
+    height: 250px;
+    float: left;
+}
+menu{
+	width: 70%;
+	height: 70px;
+	background-color: #58587e;
+	float: right;
+}
