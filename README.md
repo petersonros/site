@@ -19,9 +19,9 @@
 <p>Portfólio será baseado nas fotos dos produtos que chegam na loja e dos que tem em estoque. Apresentação comercial será as fotos dos produtos e clientes nas redes sociais. Quer proporcionar um serviço de qualidade e oportunidades para os amantes de jogos e do mundo tecnológico. "A nossa missão é inspirar e valorizar a paixão pela tecnologia, jogos, conteúdos, entretenimento e inovação, causando uma emoção inédita, criando experiências e prazeres." "A visão da empresa é de ampliar o público-alvo e as nossas ações no mundo gamer e tecnológico. Já os valores envolvem, ética, inovação, respeito aos clientes, respeito às leis."</p>
 <hr>
 <h2>Protótipo do Layout da primeira página (HOME) de cada versão</h2>
-<h2>Versão para PC (telas grandes)</h2>
+<h3>Versão para PC (telas grandes)</h3>
 <a href="https://www.figma.com/file/6Xr3kKFcSM1FbO8qNn0noU/SITE-GAMER-(VERS%C3%83O-PC)">Home</a>
-<h2>Versão para Tablet (Telas Medias)</h2>
+<h3>Versão para Tablet (Telas Medias)</h3>
 <a href="https://www.figma.com/file/qMhP9TdfThfxkrOKEJSH0G/Site-Gamer-(Vers%C3%A3o-Tablet)">Home</a>
-<h2>Versão para Smartphone (Pequenas Telas)</h2>
+<h3>Versão para Smartphone (Pequenas Telas)</h3>
 <a href="https://www.figma.com/file/O3YInuS0ltOGXPs2pCS5cd/Site-Gamer-(Smartphone)">Home</a>
