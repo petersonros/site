@@ -26,6 +26,3 @@
 <a href="https://www.figma.com/file/qMhP9TdfThfxkrOKEJSH0G/Site-Gamer-(Vers%C3%A3o-Tablet)">Home</a>
 <h3>Versão para Smartphone (Pequena Tela)</h3>
 <a href="https://www.figma.com/file/O3YInuS0ltOGXPs2pCS5cd/Site-Gamer-(Smartphone)">Home</a>
-
-
-![figma](<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6Xr3kKFcSM1FbO8qNn0noU%2FSITE-GAMER-(VERS%25C3%2583O-PC)" allowfullscreen></iframe>)
