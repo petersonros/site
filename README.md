@@ -17,3 +17,11 @@
 <h2>Resumo dos pedidos feitos pela cliente.</h2>
 <p>Site do zero e uma repaginação nas redes sociais para melhorar a comunicação, serviços e divulgação para atingir pessoas do mundo gamer ampliando suas vendas. Sem gírias, minimalistas com informações objetivas, cores claras e imagens de alta resolução. Não quer muito texto, muitas cores e propagandas. Branco para conteúdo e textos. Para destaques, fundo nas cores preta e azul. Pode conter cores como vermelho ou verde. Não quer rosa, amarelo, laranja, roxo, ciano, bege e marrom. Quer tipografia da categoria Sans Serif ou Serif, sem desenho de fonte. Quer página de contato com localização e os dados: telefone, e-mail fácil de visualizar. Redes sociais (Facebook e Instagram) interligadas ao site.</p>
 <p>Portfólio será baseado nas fotos dos produtos que chegam na loja e dos que tem em estoque. Apresentação comercial será as fotos dos produtos e clientes nas redes sociais. Quer proporcionar um serviço de qualidade e oportunidades para os amantes de jogos e do mundo tecnológico. "A nossa missão é inspirar e valorizar a paixão pela tecnologia, jogos, conteúdos, entretenimento e inovação, causando uma emoção inédita, criando experiências e prazeres." "A visão da empresa é de ampliar o público-alvo e as nossas ações no mundo gamer e tecnológico. Já os valores envolvem, ética, inovação, respeito aos clientes, respeito às leis."</p>
+<hr>
+<h2>Protótipo do Layout da primeira página (HOME) de cada versão</h2>
+<h2>Versão para PC (telas grandes)</h2>
+<a href="https://www.figma.com/file/6Xr3kKFcSM1FbO8qNn0noU/SITE-GAMER-(VERS%C3%83O-PC)">Home</a>
+<h2>Versão para Tablet (Telas Medias)</h2>
+<a href="https://www.figma.com/file/qMhP9TdfThfxkrOKEJSH0G/Site-Gamer-(Vers%C3%A3o-Tablet)">Home</a>
+<h2>Versão para Smartphone (Pequenas Telas)</h2>
+<a href="https://www.figma.com/file/O3YInuS0ltOGXPs2pCS5cd/Site-Gamer-(Smartphone)">Home</a>
