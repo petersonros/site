@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <title>Home</title>
 	</head>
+    <!-- OBS: Fonte principal Sans Serif ou Serif -->
 <body>
     <!-- Cabeçalho do Site (Banner) -->
     <header class="container-fluid">
@@ -18,7 +19,6 @@
         </div>
     </header>
     <hr>
-
     <!-- Seção para o Logo e Menu -->
     <section class="container-fluid">
         <div class="row">
@@ -27,45 +27,53 @@
                 <a href="index.html"><img src="assets/images/logo_branco.jpg" alt="Logo" width="200" height="200"></a>
             </div>
             <!-- Menu para Navegação ente as páginas -->
-            <div class="col-sm">
-                <nav>
-                    <a href="index.html">Home</a> | 
-                    <a href="portifolio.html">Portifólio</a> | 
-                    <a href="visao.html">Visão</a> | 
-                    <a href="missao.html">Missão</a> | 
-                    <a href="contato.html">Contato</a>
-                </nav>
-            </div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="bootstrap.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="missao.html">MISSÃO</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="portifolio.html">PORTIFÓLIO</a>
+                        </li>  
+                        <li class="nav-item">
+                          <a class="nav-link" href="sobre.html">SOBRE</a>
+                        </li>  
+                        <li class="nav-item">
+                          <a class="nav-link" href="contato.html">CONTATO</a>
+                        </li>    
+                    </ul>
+                </div>  
+            </nav>
         </div>
-
     </section>
     <hr>
-
     <!-- Seção para o Destaque -->
-    <section>
+    <section class="container">
         <div>
             <h1>Destaque</h1>
         </div>
     </section>
     <hr>
-
     <!-- Seção para Novidades -->
-    <section>
+    <section class="container">
         <div>
             <h1>Novidades</h1>
         </div>
     </section>
     <hr>
     <!-- Seção para a Galeria -->
-    <section>
+    <section class="container">
         <div>
             <h1>Galeria</h1>
         </div>
     </section>
     <hr>
-
     <!-- Seção para as redes sociais -->
-    <section>
+    <section class="container">
         <div>
             <img src="assets/images/facebook.jpg" alt="Facebook" width="400" height="">
         </div>
@@ -74,15 +82,13 @@
             <img src="assets/images/instagram.jpg" alt="Instagram" width="400" height="">
         </div>
     </section>
-    <hr>
-    
+    <hr>    
     <!-- Seção Rodapé -->
-    <footer>
+    <footer class="container">
         <div>
             Copyright - Games - 2021
         </div> 
     </footer>
-
     <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascritp" src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
