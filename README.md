@@ -28,7 +28,7 @@
 <a href="https://www.figma.com/file/O3YInuS0ltOGXPs2pCS5cd/Site-Gamer-(Smartphone)">Home</a>
 
 <br>
-![Smartphone](https://www.figma.com/file/O3YInuS0ltOGXPs2pCS5cd/Site-Gamer-(Smartphone)=raw=true)
+![Smartphone](https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FO3YInuS0ltOGXPs2pCS5cd%2FSite-Gamer-(Smartphone)%3Fnode-id%3D0%253A1?raw=true")
 
 <br>
 
