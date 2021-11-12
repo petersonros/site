@@ -11,26 +11,42 @@
   <title>Home</title>
 </head>
 <!-- OBS: Fonte principal Sans Serif ou Serif -->
-<body>
+<body class="container">
     <!-- Cabeçalho do Site (Banner) -->
     <header class="container-fluid">
-        <div class="jumbotron text-center" style="margin-bottom:0">
-          <h1>Games</h1>
-          <p>Play has no limit!</p>
-          <!-- logo -->
-          <a href="index.html"><img src="assets/images/logo_branco.jpg" alt="Logo" width="200" height="200"></a>
+        <div class="row container">
+            <!-- logo -->
+            <div class="col-sm-3">    
+                <a href="index.html"><img src="assets/images/logo_branco.jpg" alt="Logo" width="200" height="200"></a>
+            </div>
+            <div class="col-sm justify-content-center">
+                <h1>Games</h1>
+                <p>Play has no limit!</p>
+            </div>           
         </div>
     </header>
     <!-- Menu para Navegação ente as páginas -->
     <nav class="navbar navbar-expand bg-dark navbar-dark">
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
             <ul class="navbar-nav">
-                <a href="index-b.html" role="button" type="button" class="btn btn-dark">HOME</a>
-                <a href="produtos-b.html" role="button" type="button" class="btn btn-dark">PRODUTOS</a>
-                <a href="eventos-b.html" role="button" type="button" class="btn btn-dark">EVENTOS</a>
-                <a href="portifolio-b.html" role="button" type="button" class="btn btn-dark">PORTIFÓLIO</a>
-                <a href="sobre-b.html" role="button" type="button" class="btn btn-dark">SOBRE</a>
-                <a href="contato-b.html" role="button" type="button" class="btn btn-dark">CONTATO</a> 
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">PRODUTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="eventos.html">EVENTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portifolio.html">PORTIFÓLIO</a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">SOBRE</a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">CONTATO</a>
+                </li>    
             </ul>
         </div>  
     </nav>
