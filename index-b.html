@@ -13,16 +13,27 @@
 <!-- OBS: Fonte principal Sans Serif ou Serif -->
 <body class="container-fluid">
     <!-- Cabeçalho do Site (Banner) -->
-    <header class="container-fluid">
-      <div class="jumbotron text-center" style="margin-bottom:0">
-        <h1>Games</h1>
-        <p>Play has no limit!</p>
+    <header class="container justify-content-center">
+      <div class="row shadow bg-body rounded">
         <!-- logo -->
-        <a href="index.html"><img src="assets/images/logo_branco.jpg" alt="Logo" width="200" height="200"></a>
+        <div class="col-sm-3">
+            <a href="index-b.html"><img class="img-fluid" src="assets/images/logo_branco.jpg" alt="Logo" width="200" height="200"></a>
+        </div>
+        <!-- A frase -->
+        <div class="col-sm-9">
+            <figure class="">
+                <blockquote class="blockquote">
+                    <p>Choose to play!</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    We all make choices in life, but in the end <cite title="Source Title">our choices </cite>make us.
+                </figcaption>
+            </figure>
+        </div>
       </div>
-  </header>
+    </header>
     <!-- Menu para Navegação ente as páginas -->
-    <nav class="navbar bg-dark navbar-dark">
+    <nav class="navbar container shadow p-3 mb-5 bg-body rounded">
         <div class="nav justify-content-center container-fluid" id="collapsibleNavbar">
             <ul class="navbar-expand">
                 <a href="index-b.html"             role="button" type="button" class="btn btn-outline-primary">  HOME        </a>
@@ -40,52 +51,28 @@
             <h1>Destaque</h1>
         </div>
     </section>
-    <hr>
     <!-- Seção para Novidades -->
-    <section class="container">
-        <div>
-            <h1>Novidades</h1>
-        </div>
-        <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        </div>
     
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
-      </div>
-      <div class="carousel-item">
-        <img src="chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
-      </div>
-      <div class="carousel-item">
-        <img src="ny.jpg" alt="New York" class="d-block" style="width:100%">
-      </div>
+    <div class="container shadow p-3 mb-5 bg-body rounded">
+        <div class="row">
+          <div class="col align-self-start">
+            <p>One of three columns</p>
+          </div>
+          <div class="col align-self-center">
+            One of three columns
+          </div>
+          <div class="col align-self-end">
+            One of three columns
+          </div>
+        </div>
     </div>
     
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
-    </section>
-    <hr>
     <!-- Seção para a Galeria -->
     <section class="container">
         <div>
-            <h1>Galeria</h1>
+            <h1 class="row align-items-center">Galeria</h1>
         </div>
     </section>
-    <hr>
     <!-- Seção para as redes sociais -->
     <section class="container">
         <div>
@@ -95,8 +82,7 @@
         <div>
             <img src="assets/images/instagram.jpg" alt="Instagram" width="400" height="">
         </div>
-    </section>
-    <hr>    
+    </section> 
     <!-- Seção Rodapé -->
     <footer class="container">
         <div>

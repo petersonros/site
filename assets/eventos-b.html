@@ -7,25 +7,36 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>Eventos</title>
 </head>
 <!-- OBS: Fonte principal Sans Serif ou Serif -->
 <body class="container-fluid">
     <!-- Cabeçalho do Site (Banner) -->
-    <header class="container-fluid">
-        <div class="jumbotron text-center" style="margin-bottom:0">
-          <h1>Games</h1>
-          <p>Play has no limit!</p>
-          <!-- logo -->
-          <a href="index.html"><img src="assets/images/logo_branco.jpg" alt="Logo" width="200" height="200"></a>
+    <header class="container justify-content-center">
+      <div class="row shadow bg-body rounded">
+        <!-- logo -->
+        <div class="col-sm-3">
+            <a href="../index-b.html"><img class="img-fluid" src="images/logo_branco.jpg" alt="Logo" width="200" height="200"></a>
         </div>
+        <!-- A frase -->
+        <div class="col-sm-9">
+            <figure class="">
+                <blockquote class="blockquote">
+                    <p>Choose to play!</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    We all make choices in life, but in the end <cite title="Source Title">our choices </cite>make us.
+                </figcaption>
+            </figure>
+        </div>
+      </div>
     </header>
     <!-- Menu para Navegação ente as páginas -->
-    <nav class="navbar bg-dark navbar-dark">
+    <nav class="navbar container shadow p-3 mb-5 bg-body rounded">
         <div class="nav justify-content-center container-fluid" id="collapsibleNavbar">
             <ul class="navbar-expand">
-                <a href="index-b.html"      role="button" type="button" class="btn btn-outline-info">  HOME        </a>
+                <a href="../index-b.html"   role="button" type="button" class="btn btn-outline-info">  HOME        </a>
                 <a href="produtos-b.html"   role="button" type="button" class="btn btn-outline-info">  PRODUTOS    </a>
                 <a href="eventos-b.html"    role="button" type="button" class="btn btn-outline-info">  EVENTOS     </a>
                 <a href="portifolio-b.html" role="button" type="button" class="btn btn-outline-info">  PORTIFÓLIO  </a>
@@ -58,11 +69,11 @@
     <!-- Seção para as redes sociais -->
     <section class="container">
         <div>
-            <img src="assets/images/facebook.jpg" alt="Facebook" width="400" height="">
+            <img src="images/facebook.jpg" alt="Facebook" width="400" height="">
         </div>
         <hr>
         <div>
-            <img src="assets/images/instagram.jpg" alt="Instagram" width="400" height="">
+            <img src="images/instagram.jpg" alt="Instagram" width="400" height="">
         </div>
     </section>
     <hr>    
@@ -72,7 +83,7 @@
             Copyright - Games - 2021
         </div> 
     </footer>
-    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascritp" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascritp" src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
