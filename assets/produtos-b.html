@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="Pt-Br">
 <head>
+    <title>PRODUTOS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Programador Front-End, Senai.">
     <meta name="keywords" content="HTML, CSS, JavaScript, Senai">
     <meta name="author" content="Peterson R.">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <!-- OBS: Fonte principal Sans Serif ou Serif -->
-<body>
+<body class="container">
     <!-- Cabeçalho do Site (Banner) -->
-    <header class="container justify-content-center">
+    <header class="container-fluid justify-content-center">
         <div class="row shadow bg-body rounded">
         <!-- logo -->
         <div class="col-sm-3">
-            <a href="../index-b.html"><img class="img-fluid" src="images/logo_branco.jpg" alt="Logo" width="200" height="200"></a>
+            <a href="../index-b.html"><img class="img-fluid" src="images/logo_branco.jpg" alt="Logo" width="200px" height="200px"></a>
         </div>
         <!-- A frase -->
             <div class="col-sm-9">
@@ -35,17 +34,22 @@
             </div>
         </div>
     </header>    
-    <!-- Menu para Navegação ente as páginas -->
-    <nav class="navbar container shadow p-3 mb-5 bg-body rounded">
-        <div class="nav justify-content-center container-fluid" id="collapsibleNavbar">
-            <ul class="navbar-expand">
-                <a href="../index-b.html"   role="button" type="button" class="btn btn-outline-primary bi bi-joystick"> HOME        </a>
-                <a href="produtos-b.html"   role="button" type="button" class="btn btn-outline-primary bi bi-joystick"> PRODUTOS    </a>
-                <a href="eventos-b.html"    role="button" type="button" class="btn btn-outline-primary bi bi-joystick"> EVENTOS     </a>
-                <a href="portifolio-b.html" role="button" type="button" class="btn btn-outline-primary bi bi-joystick"> PORTIFÓLIO  </a>
-                <a href="sobre-b.html"      role="button" type="button" class="btn btn-outline-primary bi bi-joystick"> SOBRE       </a>
-                <a href="contato-b.html"    role="button" type="button" class="btn btn-outline-primary bi bi-joystick"> CONTATO     </a> 
-            </ul>
+    <!-- Inicio do menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav justify-content-center container-fluid" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 navbar-expand">
+                    <a href="../index-b.html" type="button" class="btn btn-sm btn-outline-primary bi bi-joystick"> HOME </a>
+                    <a href="produtos-b.html" type="button" class="btn btn-sm btn-outline-primary bi bi-joystick active"> PRODUTOS </a>
+                    <a href="eventos-b.html" type="button" class="btn btn-sm btn-outline-primary bi bi-joystick"> EVENTOS </a>
+                    <a href="portifolio-b.html" type="button" class="btn btn-sm btn-outline-primary bi bi-joystick"> PORTIFÓLIO </a>
+                    <a href="sobre-b.html" type="button" class="btn btn-sm btn-outline-primary bi bi-joystick"> SOBRE </a>
+                    <a href="contato-b.html" type="button" class="btn btn-sm btn-outline-primary bi bi-joystick"> CONTATO </a> 
+                </ul>
+            </div>
         </div>  
     </nav> 
     <!-- slide-show -->
@@ -68,34 +72,34 @@
             <!-- The slideshow/carousel -->
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="1000">
-                    <img src="images/Cover_1.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Cover_1.jpg" class="d-block w-100" alt="Tomb Raider">
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/Cover_2.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Cover_2.jpg" class="d-block w-100" alt="Tomb Raider">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Cover_3.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Cover_3.jpg" class="d-block w-100" alt="Tomb Raider">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Cover_4.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Cover_4.jpg" class="d-block w-100" alt="Tomb Raider">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Cover_5.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Cover_5.jpg" class="d-block w-100" alt="Tomb Raider">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Cover_6.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Cover_6.jpg" class="d-block w-100" alt="Tomb Raider">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Cover_7.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Cover_7.jpg" class="d-block w-100" alt="Tomb Raider">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Cover_8.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Cover_8.jpg" class="d-block w-100" alt="Tomb Raider">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Cover_9.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Cover_9.jpg" class="d-block w-100" alt="Tomb Raider">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Cover_10.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Cover_10.jpg" class="d-block w-100" alt="Tomb Raider">
                 </div>
             </div>
             <!-- Left and right controls/icons -->
@@ -119,8 +123,8 @@
             <p class="text-white text-center">Copyright - Games - 2021</p>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascritp" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascritp" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
