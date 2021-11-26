@@ -34,8 +34,7 @@
             </div>
         </div>
     </header>
-    <!-- Inicio do Menu -->
-    <!-- <nav class="navbar navbar-nav navbar-expand-lg navbar-light bg-light me-auto mb-2 mb-md-0"> -->
+    <!-- Menu Start -->
     <nav class="sticky-top navbar navbar-nav navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <button class="navbar-toggler container justify-content-center mb-2 mb-md-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,25 +52,71 @@
             </div>
         </div>
     </nav>
-    <!-- Fim do Menu -->
+    <!-- Menu End -->
 
-    <!-- Destaque -->
-
-    <!-- Novidades -->
-
-    <!-- Galeria -->
-
-    <!-- midias sociais -->
-    <section class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <img class="img-fluid shadow p-1 mb-1 bg-danger rounded justify-content-center container" src="assets/images/facebook.jpg" alt="Facebook" width="400" height="600">
+    <!-- Começo do carrossel -->
+    <div class="container">
+        <div id="slideShow" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicadores de imagens -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="1" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="2" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="4" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="5" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="6" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="7" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="8" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="9" aria-label="Slide 9"></button>
             </div>
-            <div class="col-sm-6">
-                <img class="img-fluid shadow p-1 mb-1 bg-danger rounded justify-content-center container" src="assets/images/instagram.jpg" alt="Instagram" width="400" height="600">
+            <!-- Imagens do Carrossel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="assets/images/Cover_1.jpg" class="d-block w-100" alt="Tomb Raider">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/images/Cover_2.jpg" class="d-block w-100" alt="Tomb Raider">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Cover_3.jpg" class="d-block w-100" alt="Tomb Raider">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Cover_4.jpg" class="d-block w-100" alt="Tomb Raider">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Cover_5.jpg" class="d-block w-100" alt="Tomb Raider">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Cover_6.jpg" class="d-block w-100" alt="Tomb Raider">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Cover_7.jpg" class="d-block w-100" alt="Tomb Raider">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Cover_8.jpg" class="d-block w-100" alt="Tomb Raider">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Cover_9.jpg" class="d-block w-100" alt="Tomb Raider">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Cover_10.jpg" class="d-block w-100" alt="Tomb Raider">
+                </div>
             </div>
+            <!-- controle da esquerda -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#slideShow" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <!-- controle da direita -->
+            <button class="carousel-control-next" type="button" data-bs-target="#slideShow" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próxima</span>
+            </button>
         </div>
-    </section> 
+    </div>
+    <!-- final do carrossel -->
+
     <!-- Rodapé -->
     <footer class="container bg-dark">
         <div class="p-1 mb-1">
