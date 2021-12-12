@@ -1,5 +1,4 @@
 <h1>Site Loja Gamer</h1>
-<h2>Atividade do Curso Front-End do Senai.</h2>
 <hr>
 <h3>Primeira Etapa.</h3>
 <p>Construir um site em HTML5 para uma loja voltada ao público gamer.</p>

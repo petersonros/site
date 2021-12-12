@@ -170,13 +170,31 @@
                 </a>
             </div>
         </div>
-        <div class="">
+        <div>
+            <p id="mostrar" class="text-white text-center"></p>
+        </div>
+        <div>
             <p class="text-white text-center p-2">Copyright - Games - 2021</p>   
         </div>
     </footer>
     <!-- End footer -->
 
-    <!-- Scripts -->
+    <!-- scripts -->
+
+    <script>
+        const hoje = new Date();
+        const natal = new Date(hoje.getFullYear(), 11, 25);
+        const um_dia = 1000*60*60*24;
+        
+        if (hoje.getMonth()==11 && hoje.getDate()>25) natal.setFullYear(natal.getFullYear()+1);
+        
+        const dias = Math.ceil(
+            (natal.getTime() - hoje.getTime()) / (um_dia)
+        );
+        console.log(`Faltam ${dias} dias(s) para o Natal!`);
+        document.getElementById("mostrar").innerHTML = (`Faltam ${dias} dias para o Natal!`);
+    </script>
+
     <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascritp" src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
