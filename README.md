@@ -1,4 +1,6 @@
 <h1>Site Loja Gamer</h1>
+<a href="https://petersonros.github.io/site-games/index-b.html">Click aqui para ver o resultado da atividade.</a>
+<h2>Atividade do Curso Front-End do Senai.</h2>
 <hr>
 <h3>Primeira Etapa.</h3>
 <p>Construir um site em HTML5 para uma loja voltada ao público gamer.</p>
